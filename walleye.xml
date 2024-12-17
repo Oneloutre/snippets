@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github-pixel2" fetch="https://github.com/EVOX-walleye" revision="udc" />
+    <remote name="Muppets"       fetch="https://github.com/TheMuppets"   revision="lineage-21" />
+
+
+    <!-- device tree -->
+    <project name="android_device_google_walleye" path="device/google/walleye" remote="github-pixel2"/>
+    <project name="android_device_google_muskie" path="device/google/muskie" remote="github-pixel2"/>
+    <project name="android_device_google_wahoo" path="device/google/wahoo" remote="github-pixel2"/>
+
+    <!-- kernel -->
+    <project name="android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github-pixel2"/>
+
+    <!-- vendor -->
+    <project name="proprietary_vendor_google_walleye" path="vendor/google/walleye" remote="Muppets"/>
+
+</manifest>
